@@ -28,12 +28,12 @@ function App() {
   }
   const router = createBrowserRouter([{
     path:"/",
-    basename: "/FlexEdge",
+    basename: "/FlexEdge_E-Commerce/",
     element:<Layout />,
 
     children:[
       {
-        path:"/FlexEdge",
+        path:"/FlexEdge_E-Commerce/",
         element:<Home />
       },
       {

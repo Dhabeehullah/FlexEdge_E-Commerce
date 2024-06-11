@@ -149,15 +149,3 @@ const Cart = () => {
 }
 
 export default Cart
-/*onPaymentAuthorized={paymentData =>{
-  console.log(paymentData);
-  return{transactionState:'SUCCESS'}
-}}
-existingPaymentMethodRequired = 'false'
-buttonColor='black'
-buttonType='buy'
-
- shippingAddressRequired:true,
-                callbackIntents:['PAYMENT_AUTHORIZATION']
-
-*/

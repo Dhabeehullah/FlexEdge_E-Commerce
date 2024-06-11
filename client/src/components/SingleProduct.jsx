@@ -86,7 +86,7 @@ const SingleProduct = () => {
               })
               )&toast.success(`${details.title.toLowerCase()} is added`)
               }
-               className="bg-black text-white py-2 px-1 active:bg-gray-800 text-xs sm:text-sm sm:px-3">
+               className="bg-black text-white py-2 px-1 active:bg-gray-800 text-xs sm:text-sm sm:px-5">
                 add to cart
               </button>
             </div>

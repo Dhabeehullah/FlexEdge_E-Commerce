@@ -34,7 +34,7 @@ const Header = () => {
               <span className='absolute top-3 left-3 text-xs'>{productData.length}</span>
             </div>
             <Link to="/login">
-              <img className='w-8 h-8 cursor-pointer rounded-2xl'  src={userInfo ? userInfo.image : './assets/userLogo.png'  } alt="userlogo" />
+              <img className='w-8 h-8 cursor-pointer rounded-2xl'  src={userInfo ? userInfo.image : './src/assets/userLogo.png'  } alt="userlogo" />
             </Link>
             <NavBar />
           </div>

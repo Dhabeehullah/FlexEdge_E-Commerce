@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors"); 
-app.use(cors());
+app.use(cors({credentials:true,origin:['http://localhost:5173']}));
 const bodyParser = require("body-parser");
 require("dotenv").config();
 const port = process.env.PORT;
