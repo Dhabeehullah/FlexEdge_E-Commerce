@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors"); 
-app.use(cors({credentials:true,origin:['http://localhost:5173',"https://Dhabeehullah.github.io/FlexEdge_E-Commerce"]}));
+app.use(cors({credentials:true,origin:['http://localhost:5173',"https://dhabeehullah.github.io/FlexEdge_E-Commerce"]}));
 const bodyParser = require("body-parser");
 require("dotenv").config();
 const port = process.env.PORT;
