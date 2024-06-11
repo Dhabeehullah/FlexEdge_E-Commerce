@@ -41,7 +41,7 @@ function App() {
         element:<Home />,
       },
       {
-        path:"/supplements",
+        path:"supplements",
         element:<SupplementsForAllProducts />,
       },
       {
