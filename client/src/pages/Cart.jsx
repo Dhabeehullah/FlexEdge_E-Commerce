@@ -31,7 +31,7 @@ const Cart = () => {
       }
   }
   const payment = async(token)=>
-  await axios.post("http://localhost:8000/pay", {
+  await axios.post("https://flexedge.onrender.com/pay", {
   amount:totamt * 100,
   token : token,
   });
