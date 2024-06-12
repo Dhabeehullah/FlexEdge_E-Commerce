@@ -12,15 +12,15 @@ export default function NavBar() {
     },
     {
       name:"EQUIPMENTS",
-      link:"/FlexEdge/gymaccessories",
+      link:"FlexEdge/gymaccessories",
     },
     {
       name:"SUPPLEMENTS",
-      link:"/FlexEdge/supplements",
+      link:"FlexEdge/supplements",
     },
     {
       name:"CONTACT",
-      link:"/FlexEdge/contact",
+      link:"FlexEdge/contact",
     },
     
   ];
@@ -42,7 +42,7 @@ export default function NavBar() {
             <Link
               to={item.link}
               className="w-full text-black text-base sm:text-lg"
-              href={item.link}
+              
               size="sm"
             >
               {item.name}
